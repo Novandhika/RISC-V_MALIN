@@ -1,0 +1,236 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Aug 22 12:34:11 2022
+| Host         : DESKTOP-RJD0IDK running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_2_rst_ps7_0_50M_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_2_rst_ps7_0_50M_0 (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 13)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Aug 22 12:34:10 2022
+| Host         : DESKTOP-RJD0IDK running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_2_processing_system7_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_2_processing_system7_0_0 (xilinx.com:ip:processing_system7:5.5 (Rev. 6)) to Vivado generation flows.
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot add parameter PCW_TRACE_INTERNAL_WIDTH with default value 32 : a parameter called PCW_TRACE_INTERNAL_WIDTH already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_USE_AXI_NONSECURE with default value 0 : a parameter called PCW_USE_AXI_NONSECURE already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP0_NUM_WRITE_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP0_NUM_READ_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP1_NUM_WRITE_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP1_NUM_READ_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP0_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP1_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Aug 22 12:34:10 2022
+| Host         : DESKTOP-RJD0IDK running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_2_blk_mem_gen_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_2_blk_mem_gen_0_0 (xilinx.com:ip:blk_mem_gen:8.4) from (Rev. 5) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Aug 22 12:34:10 2022
+| Host         : DESKTOP-RJD0IDK running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_2_axi_smc_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_2_axi_smc_0 (xilinx.com:ip:smartconnect:1.0) from (Rev. 17) to (Rev. 14)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection and Interface Information
+---------------------------------------
+
+Connection and Interface information can not be compared for deferred elaboration IPs.
+design_2_axi_smc_0 may have connection or interface changes.
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Aug 22 12:34:10 2022
+| Host         : DESKTOP-RJD0IDK running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_2_axi_bram_ctrl_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_2_axi_bram_ctrl_0_0 (xilinx.com:ip:axi_bram_ctrl:4.1) from (Rev. 6) to (Rev. 4)
+
+After upgrade, an IP may have parameter differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality.
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot remove parameter C_SELECT_XPM : there is no parameter called C_SELECT_XPM in axi_bram_ctrl_v4_1
+
+3. Customization warnings
+-------------------------
+
+An attempt to modify the value of disabled parameter 'ECC_TYPE' from 'Hamming' to '0' has been ignored for IP 'design_2_axi_bram_ctrl_0_0'
+
+
+4. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:axi_bram_ctrl:4.1 -user_name design_2_axi_bram_ctrl_0_0
+set_property -dict "\
+  CONFIG.BMG_INSTANCE {EXTERNAL} \
+  CONFIG.BRAM_PORTA.MASTER_TYPE {BRAM_CTRL} \
+  CONFIG.BRAM_PORTA.MEM_ECC {NONE} \
+  CONFIG.BRAM_PORTA.MEM_SIZE {8192} \
+  CONFIG.BRAM_PORTA.MEM_WIDTH {32} \
+  CONFIG.BRAM_PORTA.READ_LATENCY {1} \
+  CONFIG.BRAM_PORTA.READ_WRITE_MODE {WRITE_ONLY} \
+  CONFIG.BRAM_PORTB.MASTER_TYPE {BRAM_CTRL} \
+  CONFIG.BRAM_PORTB.MEM_ECC {NONE} \
+  CONFIG.BRAM_PORTB.MEM_SIZE {8192} \
+  CONFIG.BRAM_PORTB.MEM_WIDTH {32} \
+  CONFIG.BRAM_PORTB.READ_LATENCY {1} \
+  CONFIG.BRAM_PORTB.READ_WRITE_MODE {READ_ONLY} \
+  CONFIG.CLKIF.ASSOCIATED_BUSIF {S_AXI:S_AXI_CTRL} \
+  CONFIG.CLKIF.ASSOCIATED_RESET {s_axi_aresetn} \
+  CONFIG.CLKIF.CLK_DOMAIN {design_2_processing_system7_0_0_FCLK_CLK0} \
+  CONFIG.CLKIF.FREQ_HZ {50000000} \
+  CONFIG.CLKIF.FREQ_TOLERANCE_HZ {0} \
+  CONFIG.CLKIF.INSERT_VIP {0} \
+  CONFIG.CLKIF.PHASE {0.0} \
+  CONFIG.Component_Name {design_2_axi_bram_ctrl_0_0} \
+  CONFIG.DATA_WIDTH {32} \
+  CONFIG.ECC_ONOFF_RESET_VALUE {0} \
+  CONFIG.ECC_TYPE {0} \
+  CONFIG.FAULT_INJECT {0} \
+  CONFIG.ID_WIDTH {0} \
+  CONFIG.MEM_DEPTH {2048} \
+  CONFIG.PROTOCOL {AXI4} \
+  CONFIG.RD_CMD_OPTIMIZATION {0} \
+  CONFIG.READ_LATENCY {1} \
+  CONFIG.RSTIF.INSERT_VIP {0} \
+  CONFIG.RSTIF.POLARITY {ACTIVE_LOW} \
+  CONFIG.SINGLE_PORT_BRAM {0} \
+  CONFIG.SUPPORTS_NARROW_BURST {0} \
+  CONFIG.S_AXI.ADDR_WIDTH {13} \
+  CONFIG.S_AXI.ARUSER_WIDTH {0} \
+  CONFIG.S_AXI.AWUSER_WIDTH {0} \
+  CONFIG.S_AXI.BUSER_WIDTH {0} \
+  CONFIG.S_AXI.CLK_DOMAIN {design_2_processing_system7_0_0_FCLK_CLK0} \
+  CONFIG.S_AXI.DATA_WIDTH {32} \
+  CONFIG.S_AXI.FREQ_HZ {50000000} \
+  CONFIG.S_AXI.HAS_BRESP {1} \
+  CONFIG.S_AXI.HAS_BURST {1} \
+  CONFIG.S_AXI.HAS_CACHE {1} \
+  CONFIG.S_AXI.HAS_LOCK {1} \
+  CONFIG.S_AXI.HAS_PROT {1} \
+  CONFIG.S_AXI.HAS_QOS {0} \
+  CONFIG.S_AXI.HAS_REGION {0} \
+  CONFIG.S_AXI.HAS_RRESP {1} \
+  CONFIG.S_AXI.HAS_WSTRB {1} \
+  CONFIG.S_AXI.ID_WIDTH {0} \
+  CONFIG.S_AXI.INSERT_VIP {0} \
+  CONFIG.S_AXI.MAX_BURST_LENGTH {16} \
+  CONFIG.S_AXI.NUM_READ_OUTSTANDING {8} \
+  CONFIG.S_AXI.NUM_READ_THREADS {1} \
+  CONFIG.S_AXI.NUM_WRITE_OUTSTANDING {8} \
+  CONFIG.S_AXI.NUM_WRITE_THREADS {1} \
+  CONFIG.S_AXI.PHASE {0.0} \
+  CONFIG.S_AXI.PROTOCOL {AXI4} \
+  CONFIG.S_AXI.READ_WRITE_MODE {READ_WRITE} \
+  CONFIG.S_AXI.RUSER_BITS_PER_BYTE {0} \
+  CONFIG.S_AXI.RUSER_WIDTH {0} \
+  CONFIG.S_AXI.SUPPORTS_NARROW_BURST {0} \
+  CONFIG.S_AXI.WUSER_BITS_PER_BYTE {0} \
+  CONFIG.S_AXI.WUSER_WIDTH {0} \
+  CONFIG.USE_ECC {0} " [get_ips design_2_axi_bram_ctrl_0_0]
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Aug 22 12:33:34 2022
+| Host         : DESKTOP-RJD0IDK running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_blk_mem_gen_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_blk_mem_gen_0_0 (xilinx.com:ip:blk_mem_gen:8.4) from (Rev. 5) to (Rev. 4)
+
