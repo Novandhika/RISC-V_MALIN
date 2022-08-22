@@ -1,0 +1,38 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.gen/sources_1/bd/design_1/ip/design_1_blk_mem_gen_0_0/sim/design_1_blk_mem_gen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_blk_mem_gen_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.gen/sources_1/bd/design_1/sim/design_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/USER/Documents/GitHub/RISC-V_MALIN/Ali_v1.srcs/sources_1/imports/new/ALU_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/decode_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/decode_exe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_exe
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/exe_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module exe_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/exe_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module exe_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/fetch_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fetch_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/fetch_decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fetch_decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/instr_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instr_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/USER/Documents/GitHub/RISC-V_MALIN/Ali_v1.srcs/sources_1/imports/new/mem_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/mem_wb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_wb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/USER/Documents/GitHub/RISC-V_MALIN/Ali_v1.srcs/sources_1/imports/new/program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/USER/Documents/GitHub/RISC-V_MALIN/Ali_v1.srcs/sources_1/imports/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/USER/Documents/GitHub/RISC-V_MALIN/Ali_v1.srcs/sources_1/imports/new/sign_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/USER/Documents/GitHub/RISC-V_MALIN/Ali_v1.srcs/sources_1/imports/new/wb_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wb_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/pipeline_bram_v1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeline_bram_v1

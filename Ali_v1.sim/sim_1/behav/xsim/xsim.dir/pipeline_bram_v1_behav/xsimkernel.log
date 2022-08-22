@@ -1,0 +1,4 @@
+Running: xsim.dir/pipeline_bram_v1_behav/xsimk.exe -simmode gui -wdb pipeline_bram_v1_behav.wdb -simrunnum 0 -socket 2427
+Design successfully loaded
+Design Loading Memory Usage: 6060 KB (Peak: 6060 KB)
+Design Loading CPU Usage: 46 ms
