@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1661392107">
+  <File Type="PA-TCL" Name="pipeline_bram_v1.tcl"/>
+  <File Type="REPORTS-TCL" Name="pipeline_bram_v1_reports.tcl"/>
+  <File Type="RDS-RDS" Name="pipeline_bram_v1.vds"/>
+  <File Type="RDS-UTIL" Name="pipeline_bram_v1_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="pipeline_bram_v1_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="pipeline_bram_v1.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/bd/design_1/design_1.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/bd/design_2/design_2.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/ALU_32.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/imports/new/ALU_32.v"/>
+        <Attr Name="ImportTime" Val="1659605626"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/control_unit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/decode_block.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/decode_exe.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.gen/sources_1/bd/design_2/hdl/design_2_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/exe_block.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/exe_mem.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/fetch_bram.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/fetch_decode.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mem_block.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/mem_block.v"/>
+        <Attr Name="ImportTime" Val="1659594554"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/mem_wb.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/program_counter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/imports/new/program_counter.v"/>
+        <Attr Name="ImportTime" Val="1659689498"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/register.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/imports/new/register.v"/>
+        <Attr Name="ImportTime" Val="1659499134"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/sign_extend.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/imports/new/sign_extend.v"/>
+        <Attr Name="ImportTime" Val="1658906418"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/wb_block.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/wb_block.v"/>
+        <Attr Name="ImportTime" Val="1658995636"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/pipeline_bram_v1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/instr_mem.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mux2_32.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/imports/new/mux2_32.v"/>
+        <Attr Name="ImportTime" Val="1644724228"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mux8_32.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/imports/new/mux8_32.v"/>
+        <Attr Name="ImportTime" Val="1644684354"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/pipeline_v1.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/ram.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/imports/new/ram.v"/>
+        <Attr Name="ImportTime" Val="1644854484"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/regfile.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/imports/new/regfile.v"/>
+        <Attr Name="ImportTime" Val="1654591862"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/fetch_block.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/fetch_block.v"/>
+        <Attr Name="ImportTime" Val="1659687014"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/adder_32.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/imports/new/adder_32.v"/>
+        <Attr Name="ImportTime" Val="1645855212"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mux2_8.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/imports/new/mux2_8.v"/>
+        <Attr Name="ImportTime" Val="1644649588"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mux4_32.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/imports/new/mux4_32.v"/>
+        <Attr Name="ImportTime" Val="1643653330"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/instr_mem.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/imports/new/instr_mem.v"/>
+        <Attr Name="ImportTime" Val="1660111704"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/tb_pipeline_v1.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/tb_pipeline_v1.v"/>
+        <Attr Name="ImportTime" Val="1659510734"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/tb_pipeline_bram1.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/tb_pipeline_bram1.v"/>
+        <Attr Name="ImportTime" Val="1660029318"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="pipeline_bram_v1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/constrs_1/PYNQ-Z1_C.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/constrs_1/PYNQ-Z1_C.xdc"/>
+        <Attr Name="ImportTime" Val="1660206800"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_blk_mem_gen_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_blk_mem_gen_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_axi_smc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_rst_ps7_0_50M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_axi_bram_ctrl_0_0"/>
+</GenRun>

@@ -36,7 +36,7 @@ module register(
 
     initial 
     begin
-        $readmemh("C:\\Users\\GanbatteResearch\\Documents\\Ali\\Multicycle_v1\\Multicycle_v1.srcs\\sources_1\\new\\register.list", rf);
+        $readmemh("C:\\Users\\USER\\Documents\\GitHub\\Riset-RISCV-Ali\\Multicycle_v1\\Multicycle_v1.srcs\\sources_1\\new\\register.list", rf);
     end
     
     
