@@ -86,7 +86,12 @@ module ALU_32(in1, b, funct3, upperBit, lowerBit, cOrI, out1, save);
 										end
 								endcase			
 							end		
-						3'b001: out = b << shamt;	// SLL/SLLI; the same operation but shamt is either 
+						3'b001: 
+						case(save)
+	                           1'b1: out = a + b;
+	                           1'b0: out = b << shamt;
+                        endcase
+							// SLL/SLLI; the same operation but shamt is either 
 															// shamt or the value in rs2
 						3'b010:					// SLT/SLTI
 							case(save)
