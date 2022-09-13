@@ -48,8 +48,8 @@ module tb_pipeline_bram1(
        //#9 rst = 1'd0;
       // #1 rst = 1'd0;
        //#5 start = 1'd0;
-       #495 rst = 1'd1;
-       #10 rst = 1'd0;
+//       #495 rst = 1'd1;
+//       #10 rst = 1'd0;
        
     
     end

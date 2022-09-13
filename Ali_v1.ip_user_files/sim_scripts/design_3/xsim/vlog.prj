@@ -1,0 +1,7 @@
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" \
+"../../../bd/design_3/ip/design_3_blk_mem_gen_0_0/sim/design_3_blk_mem_gen_0_0.v" \
+"../../../bd/design_3/sim/design_3.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

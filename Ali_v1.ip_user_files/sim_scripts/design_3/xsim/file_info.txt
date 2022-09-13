@@ -1,0 +1,3 @@
+design_3_blk_mem_gen_0_0.v,verilog,xil_defaultlib,../../../bd/design_3/ip/design_3_blk_mem_gen_0_0/sim/design_3_blk_mem_gen_0_0.v,
+design_3.v,verilog,xil_defaultlib,../../../bd/design_3/sim/design_3.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

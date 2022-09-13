@@ -1,13 +1,15 @@
 Vivado Simulator 2020.2
 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 9e17ea854016409aae51b2f542845fd5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_pipeline_v1_behav xil_defaultlib.tb_pipeline_v1 xil_defaultlib.glbl -log elaborate.log 
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 9e17ea854016409aae51b2f542845fd5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_pipeline_bram1_behav xil_defaultlib.tb_pipeline_bram1 xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
-WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 6 for port 'reg_addr3_E' [C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/pipeline_v1.v:201]
-WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 6 for port 'reg_addr3_EM' [C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/pipeline_v1.v:212]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'BRAM_PORTA_0_en' [C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/fetch_bram.v:66]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 4 for port 'BRAM_PORTA_0_we' [C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/fetch_bram.v:67]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 6 for port 'reg_addr3_E' [C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/pipeline_bram_v1.v:201]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 6 for port 'reg_addr3_EM' [C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/pipeline_bram_v1.v:212]
 WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'BRAM_PORTA_0_en' [C:/Users/USER/Documents/GitHub/RISC-V_MALIN/Ali_v1.srcs/sources_1/imports/new/mem_block.v:62]
-WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 6 for port 'reg_addr3_M' [C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/pipeline_v1.v:249]
-WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 6 for port 'reg_addr3_MW' [C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/pipeline_v1.v:255]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 6 for port 'reg_addr3_M' [C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/pipeline_bram_v1.v:249]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 6 for port 'reg_addr3_MW' [C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/pipeline_bram_v1.v:255]
 Completed static elaboration
 INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
