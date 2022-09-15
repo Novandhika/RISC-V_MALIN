@@ -25,13 +25,20 @@ module tb_pipeline_bram1(
     );
     
     reg         clk, rst;
-    wire[31:0] INS_O;
+    wire[31:0] PC_I, PC_O, INS_O, REG1, REG2, ALU_O, MEM1, WB_O;
     
     pipeline_bram_v1 PIPELINEBRAM1
     (
         .clk(clk), 
         .rst(rst),
-        .INS_O(INS_O) 
+        .PC_I(PC_I), 
+        .PC_O(PC_O), 
+        .INS_O(INS_O), 
+        .REG1(REG1), 
+        .REG2(REG2), 
+        .ALU_O(ALU_O), 
+        .MEM1(MEM1),
+        .WB_O(WB_O)
     );
     
     initial

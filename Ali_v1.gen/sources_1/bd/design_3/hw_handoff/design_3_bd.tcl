@@ -170,7 +170,7 @@ proc create_root_design { parentCell } {
    CONFIG.Enable_32bit_Address {true} \
    CONFIG.Fill_Remaining_Memory_Locations {true} \
    CONFIG.Load_Init_File {true} \
-   CONFIG.Register_PortA_Output_of_Memory_Primitives {true} \
+   CONFIG.Register_PortA_Output_of_Memory_Primitives {false} \
    CONFIG.Use_Byte_Write_Enable {true} \
    CONFIG.Use_RSTA_Pin {false} \
    CONFIG.Write_Depth_A {4096} \

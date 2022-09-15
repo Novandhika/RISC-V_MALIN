@@ -27,6 +27,9 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_2_pr
 # IP: C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/bd/design_2/ip/design_2_rst_ps7_0_50M_0/design_2_rst_ps7_0_50M_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_2_rst_ps7_0_50M_0 || ORIG_REF_NAME==design_2_rst_ps7_0_50M_0} -quiet] -quiet
 
+# IP: C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/bd/design_2/ip/design_2_axi_bram_ctrl_0_bram_0/design_2_axi_bram_ctrl_0_bram_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_2_axi_bram_ctrl_0_bram_0 || ORIG_REF_NAME==design_2_axi_bram_ctrl_0_bram_0} -quiet] -quiet
+
 # XDC: c:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.gen/sources_1/bd/design_1/design_1_ooc.xdc
 
 # XDC: c:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.gen/sources_1/bd/design_2/design_2_ooc.xdc

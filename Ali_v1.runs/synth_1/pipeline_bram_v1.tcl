@@ -87,6 +87,7 @@ set_property ip_output_repo c:/Users/USER/Documents/GitHub/RISC-V_MALIN/Ali_v1.c
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
+add_files C:/Users/USER/test_risc.coe
 read_verilog -library xil_defaultlib {
   C:/Users/USER/Documents/GitHub/RISC-V_MALIN/Ali_v1.srcs/sources_1/imports/new/ALU_32.v
   C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/control_unit.v
@@ -96,7 +97,7 @@ read_verilog -library xil_defaultlib {
   C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.gen/sources_1/bd/design_2/hdl/design_2_wrapper.v
   C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/exe_block.v
   C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/exe_mem.v
-  C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/fetch_bram.v
+  C:/Users/USER/Documents/GitHub/RISC-V_MALIN/Ali_v1.srcs/sources_1/new/fetch_bram_pynq.v
   C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/fetch_decode.v
   C:/Users/USER/Documents/GitHub/RISC-V_MALIN/Ali_v1.srcs/sources_1/imports/new/mem_block.v
   C:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.srcs/sources_1/new/mem_wb.v
@@ -127,6 +128,7 @@ set_property used_in_implementation false [get_files -all c:/Users/USER/Document
 set_property used_in_implementation false [get_files -all c:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.gen/sources_1/bd/design_2/ip/design_2_rst_ps7_0_50M_0/design_2_rst_ps7_0_50M_0_board.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.gen/sources_1/bd/design_2/ip/design_2_rst_ps7_0_50M_0/design_2_rst_ps7_0_50M_0.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.gen/sources_1/bd/design_2/ip/design_2_rst_ps7_0_50M_0/design_2_rst_ps7_0_50M_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.gen/sources_1/bd/design_2/ip/design_2_axi_bram_ctrl_0_bram_0/design_2_axi_bram_ctrl_0_bram_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/USER/Documents/GitHub/Riset-RISCV-Ali/Multicycle_v1/Multicycle_v1.gen/sources_1/bd/design_2/design_2_ooc.xdc]
 
 OPTRACE "Adding files" END { }

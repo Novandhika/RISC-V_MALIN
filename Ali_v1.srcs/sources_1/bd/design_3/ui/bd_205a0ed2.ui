@@ -7,9 +7,9 @@
 #  -string -flagsOSRD
 preplace port BRAM_PORTA_0 -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
 preplace inst blk_mem_gen_0 -pg 1 -lvl 1 -x 120 -y 120 -defaultsOSRD
-preplace netloc BRAM_PORTA_0_1 1 0 1 NJ 60
+preplace netloc BRAM_PORTA_0_1 1 0 1 20J 60n
 levelinfo -pg 1 0 120 230
 pagesize -pg 1 -db -bbox -sgen -170 0 230 240
 "
 }
-
+0
